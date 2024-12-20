@@ -4,5 +4,7 @@ The Chromatic Scale Shuffler keeps guitar warm ups interesting. Instead of playi
 ## chromatic_scale_shuffler.exe
 This is the stand alone executable programm. If you just want to use the tool, you only need this.
 
+![alt text](image.png)
+
 ## Python
 This folder contains the source python script and requirements. The .exe file is build from the python script via pyinstaller. Pyinstaller will create some more data. For explanation visit: https://pyinstaller.org/en/stable/operating-mode.html#bundling-to-one-file
