@@ -15,6 +15,8 @@ This is the stand alone executable program. If you just want to use the tool, yo
 * click on the three dots on the right and then download
 ![download button](images/download%20button.png)
 
+* Your windows security might not like that you downloaded an .exe file from a stranger in the internet. Continue at your own risk. :)
+
 
 ## Python
 This folder contains the source python script and requirements. The .exe file is build from the python script via pyinstaller. Pyinstaller will create some more data. For explanation visit: https://pyinstaller.org/en/stable/operating-mode.html#bundling-to-one-file
