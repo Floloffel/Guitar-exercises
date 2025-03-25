@@ -65,3 +65,6 @@ while i < iterations:
 
 time_needed = time.time() - time_start
 print(f"Time needed: {round(time_needed, 1)} seconds")
+
+print("Press any key to exit...")
+keyboard.read_event()  # Wait for any key before closing
