@@ -4,13 +4,13 @@ This repository contains guitar exercises to keep warm ups interesting. They are
 # Chromatic-Scale-Shuffler
 Instead of playing 1-2-3-4 patterns every day, this tool gives you a shuffled order, random fret to start and stroke direction. This way you get a new challenge everytime and enhance your practice routine.
 
-![Image of user interface css](<UI chromatic scale shuffler.png>)
+![Image of user interface css](<images/UI chromatic scale shuffler.png>)
 
 
 # Fretboard-Note-Trainer
 This tool gives you 20 random string and fret combinations where you have to name the corresponding note. It's set up as a 6 string guitar in standard tuning.
 
-![Image of user interface fnt](<UI fretboard trainer.png>)
+![Image of user interface fnt](<images/UI fretboard trainer.png>)
 
 # How to download just the programs:
 * go to the "exe_files" folder
