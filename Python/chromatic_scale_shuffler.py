@@ -23,7 +23,7 @@ print("Finger set:", numbers)
 print(f"Start with: {strokes[0]}")
 print("Index finger on fret:", int(index_finger_fret[0]))
 
-print("Press any key to exit...")
+print("\nPress any key to exit...")
 keyboard.read_event()  # Wait for any key before closing
 
 # build .exe with:
