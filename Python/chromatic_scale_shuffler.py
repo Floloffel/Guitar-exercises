@@ -23,8 +23,8 @@ print("Finger set:", numbers)
 print(f"Start with: {strokes[0]}")
 print("Index finger on fret:", int(index_finger_fret[0]))
 
-print("\nPress any key to exit...")
-keyboard.read_event()  # Wait for any key before closing
+print("\nPress spacebar to exit...")
+keyboard.wait("space")  # Wait for spacebar to exit
 
 # build .exe with:
 # pyinstaller --onefile chromatic_scale_shuffler.py
