@@ -32,10 +32,10 @@ print(
 )
 print("-------------")
 
+keyboard.wait("space")  # Wait for space to start
 
 time_start = time.time()
-i = 0
-while i < iterations:
+for i in range(iterations):
     # Toggle colors for variety
     if i % 2 == 0:
         color = cr.Fore.YELLOW
@@ -61,7 +61,6 @@ while i < iterations:
 
     print(f"{color}Note: {note}{cr.Style.RESET_ALL}")
     print("-------------")
-    i += 1
 
 time_needed = time.time() - time_start
 print(f"Time needed: {round(time_needed, 1)} seconds")
